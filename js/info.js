@@ -15,8 +15,8 @@ info = {
       //DONT PUT FULL LINK LIKE "https://astralclient.net/discord" just put the part after the "/" like "/discord"
       Home: "/index.html",
       Download: "/download.html",
-      Discord: "/discord.html",
       FAQ: "/faq.html",
+      Discord: "/discord.html",
     },
   },
 

@@ -24,7 +24,7 @@ displayNav = () => {
     rd1 = redirect.slice(0, -5);
     if (redirect == wL || rd1 == wL || (redirect == navContent.Home && wL == "/")) {
       if (window.innerWidth < navContentKeys.length * 160) {
-        inlineStyle = `style="background:#873BFC; padding:10px; width: 80%; text-align: center; border-radius: 10px;"`;
+        inlineStyle = `style="background:#ff3d3d; padding:10px; width: 80%; text-align: center; border-radius: 10px;"`;
       } else inlineStyle = `style="color:white; font-weight:700;"`;
     }
     nav += `<a ${inlineStyle} href="${redirect}">${navContentKeys[i]}</a>`;
